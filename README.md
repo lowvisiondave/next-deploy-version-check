@@ -8,6 +8,7 @@ This is a minimal example of how to detect when a new deployment is available in
 
 - An API route (`/api/version`) returns the current `VERCEL_DEPLOYMENT_ID`.
 - A client-side React hook polls that route every 5 minutes.
+- The hook also listens for the page’s `visibilitychange` event to trigger an immediate version check when the user returns to the tab.
 - If the deployment ID changes, it means a new version is live.
 - You can show a banner or button to prompt the user to reload.
 
