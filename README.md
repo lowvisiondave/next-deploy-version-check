@@ -2,6 +2,9 @@
 
 This is a minimal example of how to detect when a new deployment is available in a Next.js + Vercel app, and prompt the user to refresh.
 
+👉 **Live demo:**
+https://lvd-next-deploy-version-check.vercel.app/
+
 ---
 
 ## 🧠 How it works
