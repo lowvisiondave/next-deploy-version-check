@@ -1,24 +1,24 @@
 {
-	"name": "nextjs-version-skew-alert",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev --turbopack",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"next": "15.3.6",
-		"react": "^19.2.1",
-		"react-dom": "^19.2.1"
-	},
-	"devDependencies": {
-		"@tailwindcss/postcss": "^4.1.17",
-		"@types/node": "^20.19.25",
-		"@types/react": "^19.2.7",
-		"@types/react-dom": "^19.2.3",
-		"tailwindcss": "^4.1.17",
-		"typescript": "^5.9.3"
-	}
+  "name": "nextjs-version-skew-alert",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.3.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^20.19.25",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  }
 }
